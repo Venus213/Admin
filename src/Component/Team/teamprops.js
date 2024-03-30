@@ -24,7 +24,7 @@ export const Teamprops = () => {
   console.log(getdata);
 
   useEffect((res) => {
-    axios.get("http://localhost:3000/beautician/show/" + params.id)
+    axios.get(`${demo}beautician/show/` + params.id)
       .then((res) => {
         // console.log(res.data.data)
         setdata(res.data.data)
@@ -48,7 +48,7 @@ export const Teamprops = () => {
               // console.log(formData);
 
               axios
-                .post("http://localhost:3000/beautician/create", formData)
+                .post(`${demo}beautician/create`, formData)
                 .then((res) => {
                   console.log(res);
                 })
