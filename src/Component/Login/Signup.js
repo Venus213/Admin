@@ -54,7 +54,7 @@ export const Signup = () => {
     >
       <div className="main1">
         <input type="checkbox" id="chk" aria-hidden="true" />
-        <div className="signup1">
+        {/* <div className="signup1">
           <Formik
             initialValues={{
               username: "",
@@ -104,7 +104,7 @@ export const Signup = () => {
               <button className="login-button" type="submit">Sign up</button>
             </Form>
           </Formik>
-        </div>
+        </div> */}
 
         <div className="login1">
           <Formik

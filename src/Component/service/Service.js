@@ -217,10 +217,9 @@ export const Services = () => {
   
               <div className="service">
                 <div className="container">
-                  {/* <div className="section-header text-center">
-                    <p>Our Salon Services</p>
-                    <h2>Best Salon and Beautician Services for You</h2>
-                  </div> */}
+                <div className="section-header text-center">
+                    <h1><b>Our Salon Services</b></h1>
+                  </div>
                   <div className="d-flex justify-content-md-end">
                     <a style={{ fontSize: 25, color: "#673046bb" }}>
                       <AppstoreAddOutlined onClick={togglePopup1} />

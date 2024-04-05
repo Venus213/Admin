@@ -158,6 +158,11 @@ export const Appointmentes = () => {
                 </div> */}
                 {/* Page Header End */}
                 {/* Appointment Start */}
+                <div className="section-header text-center">
+                  <h1>
+                    <b>Appointment List</b>
+                  </h1>
+                </div>
                 <div style={{display : "flex" , justifyContent : "end"}}>
                   <div>
                     <button

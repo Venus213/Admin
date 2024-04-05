@@ -215,7 +215,9 @@ export const Offer = () => {
                 </>
               )}
             </div>
-
+            <div className="section-header text-center">
+                      <h1 style={{paddingBottom:"0",paddingTop:"50px"}}><b>Some Offers</b></h1>
+                    </div>
             <div className="d-flex justify-content-md-end">
               <a style={{ fontSize: 25, color: "#673046bb" }}>
                 <AppstoreAddOutlined onClick={togglePopup1} />

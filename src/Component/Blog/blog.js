@@ -142,9 +142,10 @@ export const Blog = () => {
                               onClick={togglePopup}
                               style={{ paddingLeft: "410PX" }}
                             />
-                            <div className="form_item">
-                              <label>Image</label>
+                            <div className="form_item" style={{backgroundColor:"white"}} >
+                              {/* <label>Image</label> */}
                               <input
+                              style={{width:"100%"}}
                                 type="file"
                                 id="formFile"
                                 // id="image"
@@ -154,7 +155,7 @@ export const Blog = () => {
                             </div>
                           </div>
 
-                          <div className="form_wrap">
+                          <div className="form_wrap mt-3">
                             <div className="form_item">
                               <label>date</label>
                               <Field type="date" name="date" />
@@ -162,18 +163,19 @@ export const Blog = () => {
                             </div>
                           </div>
 
-                          <div className="form_wrap">
+                          <div className="form_wrap mt-3">
                             <div className="form_item">
                               <label>title</label>
                               <Field type="text" name="title" />
                               <div className="title" id="title" />
                             </div>
                           </div>
-                          <div className="form_wrap">
+                          <div className="form_wrap mt-3">
                             <div className="form_item">
                               <label>description</label>
                               <Field
-                                as="textarea"
+                                // as="textarea"
+                                type="text"
                                 name="desc"
                                 cols="44"
                                 rows="5"
@@ -196,10 +198,9 @@ export const Blog = () => {
 
             <div className="blog">
               <div className="container">
-                {/* <div className="section-header text-center">
-                  <p>Latest From Blog</p>
-                  <h2>Learn More from Latest Barber Blog</h2>
-                </div> */}
+              <div className="section-header text-center">
+                  <h1><b>VENUS Blog</b></h1>
+                </div>
                 <div className="d-flex justify-content-md-end">
                   <a style={{ fontSize: 25, color: "#673046bb" }}>
                     <AppstoreAddOutlined onClick={togglePopup1} />

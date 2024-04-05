@@ -52,7 +52,7 @@ export const Team = () => {
   // console.log(getdata);
   useEffect(() => {
     axios
-      .get(`${demo}beautician/view`)
+      .get("http://localhost:3000/beautician/view")
       .then((res) => {
         // console.log(res);
         setdata(res.data.data);
@@ -65,7 +65,7 @@ export const Team = () => {
   const delhandel = (e) => {
     console.log(e);
     axios
-      .delete(`${demo}beautician/delete/${e}`)
+      .delete(`http://localhost:3000/beautician/delete/${e}`)
       .then((res) => {
         console.log(res);
       })
@@ -89,7 +89,7 @@ export const Team = () => {
     console.log(e);
     setShowPopup(!showPopup);
     axios
-      .get(`${demo}beautician/show/${e}`)
+      .get(`http://localhost:3000/beautician/show/${e}`)
       .then((res) => {
         setdata1(res.data.data);
       })
@@ -119,6 +119,9 @@ export const Team = () => {
                 {/* Page Header End */}
 
                 {/* Team Start */}
+                <div className="section-header text-center">
+                      <h1><b>Meet Our Beautician</b></h1>
+                    </div>
                 <div className="team">
                   <div className="container-fluid">
                     {/* <div className="section-header text-center">
@@ -144,7 +147,7 @@ export const Team = () => {
                                   if (getempid) {
                                     axios
                                       .put(
-                                        `${demo}beautician/update/${getempid}`,
+                                        `http://localhost:3000/beautician/update/${getempid}`,
                                         formData
                                       )
                                       .then((res) => {
@@ -156,7 +159,7 @@ export const Team = () => {
                                   } else {
                                     axios
                                       .post(
-                                        `${demo}beautician/create`,
+                                        "http://localhost:3000/beautician/create",
                                         formData
                                       )
                                       .then((res) => {
@@ -230,7 +233,7 @@ export const Team = () => {
                       {getdata.map((el, index) => {
                         return (
                           <Teamcardprops
-                            image={`${demo}images/` + el.image}
+                            image={"http://localhost:3000/images/" + el.image}
                             title={el.title}
                             desc={el.desc}
                             update={

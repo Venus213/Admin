@@ -74,7 +74,7 @@ const Drawer = (props) => {
                         style={{ display: "flex", alignItems: "center" }}
                         onClick={() => history.push("/")}
                       >
-                        <div style={{ margin: "0", marginTop: "5px" ,cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px" ,cursor:"pointer" }}>
                           <LayoutOutlined />
                         </div>
                         <div>
@@ -98,7 +98,7 @@ const Drawer = (props) => {
                         style={{ display: "flex", alignItems: "center" }}
                         onClick={() => history.push("/team")}
                       >
-                        <div style={{ margin: "0", marginTop: "5px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <TeamOutlined />
                         </div>
                         <div>
@@ -118,7 +118,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/gallery")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "5px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <FileImageOutlined />
                         </div>
                         <div>
@@ -137,7 +137,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/offer")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "5px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <GiftOutlined />
                         </div>
                         <div>
@@ -157,7 +157,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/service")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "5px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <RadiusSettingOutlined />
                         </div>
                         <div>
@@ -196,7 +196,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/appoinmentes")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "5px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <BookOutlined />
                         </div>
 
@@ -216,7 +216,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/contact")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "9px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                           <ContactsOutlined />
                         </div>
                         <div>
@@ -237,7 +237,7 @@ const Drawer = (props) => {
                         onClick={() => history.push("/feedback")}
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div style={{ margin: "0", marginTop: "9px",cursor:"pointer" }}>
+                        <div style={{ margin: "0", marginTop: "1px",cursor:"pointer" }}>
                         <FormOutlined />
                         </div>
                         <div>

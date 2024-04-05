@@ -205,6 +205,9 @@ export const Portfolio = () => {
                         </>
                       )}
                     </div>
+                    <div className="section-header text-center">
+                      <h1><b>Gallery of VENUS</b></h1>
+                    </div>
                     <div className="d-flex justify-content-md-end">
                       <div style={{ listStyle: "none" }}>
                         <li
@@ -267,7 +270,7 @@ export const Portfolio = () => {
                               del={
                                 <span className="delete-btn">
                                   <svg
-                                  style={{marginTop : "9px"}}
+                                  
                                     onClick={() => delhandel(el._id)}
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="14"

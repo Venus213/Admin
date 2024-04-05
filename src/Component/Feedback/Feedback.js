@@ -63,6 +63,9 @@ export const Feedback = () => {
                 {/* Page Header End */}
 
                 {/* Contact Table Start */}
+                <div className="section-header text-center">
+                      <h1><b>Feedback Message </b></h1>
+                    </div>
                 <div className="container" style={{ marginBottom: "100px" }}>
                   {/* <h1 style={{ marginTop: "30px" }}>Feedback</h1> */}
                   <table className="table table-bordered" style={{border: "#e5c0c8"}}>
@@ -79,7 +82,7 @@ export const Feedback = () => {
 
                       </tr>
                     </thead>
-                    <tbody style={{ backgroundColor: "#c0869d" }}>
+                    <tbody style={{ backgroundColor: "#c0869d", color:"white"}}>
                       {getdata.map((el, index) => {
                         return (
                           <Feedbackcardprops

@@ -1389,13 +1389,13 @@ a:focus {
   display: none;
 }
 
-.signup1 {
+/* .signup1 {
   position: relative;
   width: 100%;
   height: 100%;
-}
+} */
 
-.signup-label {
+/* .signup-label {
   color: rgba(101, 9, 72, 0.988);
   font-size: 2.3em;
   justify-content: center;
@@ -1404,7 +1404,7 @@ a:focus {
   font-weight: bold;
   cursor: pointer;
   transition: .5s ease-in-out;
-}
+} */
 
 .login-label {
   color: rgb(193, 128, 173);
@@ -1417,7 +1417,7 @@ a:focus {
   transition: .5s ease-in-out;
 }
 
-.signup-input {
+/* .signup-input {
   width: 60%;
   height: 20px;
   color: #ebcbd9;
@@ -1429,7 +1429,7 @@ a:focus {
   border: none;
   outline: none;
   border-radius: 5px;
-}
+} */
 
 .login-input {
   width: 60%;
@@ -1445,7 +1445,7 @@ a:focus {
   border-radius: 5px;
 }
 
-.signup-button {
+/* .signup-button {
   width: 60%;
   height: 40px;
   margin: 10px auto;
@@ -1461,7 +1461,7 @@ a:focus {
   border-radius: 5px;
   transition: .2s ease-in;
   cursor: pointer;
-}
+} */
 
 .login-button {
   width: 60%;
@@ -1501,9 +1501,9 @@ button:hover {
   transform: scale(1);
 }
 
-#chk:checked~.signup1 label {
+/* #chk:checked~.signup1 label {
   transform: scale(.6);
-}
+} */
 
 /* new offer end  */
 

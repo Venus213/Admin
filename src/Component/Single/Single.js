@@ -43,13 +43,13 @@ export const Single = () => {
 
   return (
     <Drawer
-    team={
-    <div>
-      <Navber />
-      {isOnline ? (
-        <div className="blog-single-page">
-          {/* Page Header Start */}
-          <div className="page-header Simage">
+      team={
+        <div>
+          <Navber />
+          {isOnline ? (
+            <div className="blog-single-page">
+              {/* Page Header Start */}
+              {/* <div className="page-header Simage">
             <div className="container">
               <div className="row">
                 <div className="col-12">
@@ -57,31 +57,36 @@ export const Single = () => {
                 </div>
               </div>
             </div>
-          </div>
-          {/* Page Header End */}
+          </div> */}
+              {/* Page Header End */}
 
-          {/*single page */}
-          <div className="container">
-            <section className="single">
-              <div className="single-image">
-                <img
-                  src={"http://localhost:3000/images/" + getdata.image}
-                  alt="Image"
-                />
+              {/*single page */}
+              <div className="section-header text-center">
+                <h1>
+                  <b>VENUS Blog</b>
+                </h1>
               </div>
-              <div className="single-content">
-                <h1>{getdata.title}</h1>
-                <p>{getdata.desc}</p>
+              <div className="container">
+                <section className="single">
+                  <div className="single-image">
+                    <img
+                      src={"http://localhost:3000/images/" + getdata.image}
+                      alt="Image"
+                    />
+                  </div>
+                  <div className="single-content">
+                    <h1>{getdata.title}</h1>
+                    <p>{getdata.desc}</p>
+                  </div>
+                </section>
               </div>
-            </section>
-          </div>
-          {/* Single Page End */}
+              {/* Single Page End */}
+            </div>
+          ) : (
+            <NetworkErrorcompo />
+          )}
         </div>
-      ) : (
-        <NetworkErrorcompo />
-      )}
-    </div>
-    }
+      }
     />
   );
 };

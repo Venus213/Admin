@@ -11,15 +11,15 @@ export const Pricecardprops = (props) => {
             <img src={props.image} alt="Image" />
           </div>
           <h3> {props.title} </h3>
-          <p></p>
           <h2>{props.price}</h2>
-          <p />
-          {/* <li className="btn" href="../Appointment.html">
-                        Book Appointment
-                      </li> */}
-          <span>{props.update}</span>
-
-          <span>{props.delete}</span>
+          <div className="flex-services gap-10" style={{cursor:"pointer"}}>
+                <span className="delete-btn-service">
+                    {props.update}
+                </span>
+                <span className="delete-btn-service"> 
+                    {props.delete}
+                </span>
+                </div>
         </div>
       </div>
     </div>

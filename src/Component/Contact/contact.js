@@ -48,6 +48,9 @@ export const Contact = () => {
           </div> */}
 
           {/* Contact start*/}
+          <div className="section-header text-center">
+                      <h1><b>Contact List</b></h1>
+                    </div>
           <div className="contact" style={{marginTop:"40px "}}>
             <table
               className="table table-bordered"
